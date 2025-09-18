@@ -1,0 +1,97 @@
+/* General page styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 90%;
+    margin: 2em auto;
+    width: 500px;
+    background: #f9f9f9;
+    color: #333;
+    line-height: 1.5;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 2em;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Headings */
+h1 {
+    font-size: 150%;
+    color: #00796B;
+    margin-bottom: 1em;
+    border-bottom: 2px solid #00796B;
+    padding-bottom: 0.3em;
+}
+h2 {
+    font-size: 120%;
+    color: #009688;
+    margin-bottom: .75em;
+}
+
+/* Form elements */
+label {
+    float: left;
+    width: 7em;
+    margin-bottom: 0.5em;
+    font-weight: 600;
+    color: #444;
+}
+input[type="text"],
+input[type="email"] {
+    width: 16em;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+    padding: 0.4em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border 0.3s;
+}
+input[type="text"]:focus,
+input[type="email"]:focus {
+    border-color: #00796B;
+    outline: none;
+}
+span {
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+}
+br {
+    clear: both;
+}
+
+/* Tables */
+table {
+    border: 1px solid #bbb;
+    border-collapse: collapse;
+    width: 100%;
+    background: white;
+    margin-top: 1em;
+    border-radius: 4px;
+    overflow: hidden;
+}
+th {
+    background: #00796B;
+    color: white;
+    padding: .75em;
+    text-align: left;
+}
+td {
+    border: 1px solid #ddd;
+    padding: .5em;
+}
+tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+/* Utility classes */
+.pad_top {
+    padding-top: 0.5em;
+}
+.margin_left {
+    margin-left: 0.5em;
+}
+.align_left {
+    text-align: left;
+}
+.align_right {
+    text-align: right;
+}
